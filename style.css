@@ -1,0 +1,49 @@
+.nav {
+    background-color: rgb(88, 87, 87);
+    display: flex;
+    font-family: 'Dosis', sans-serif;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1%;
+}
+
+h1 {
+    color: white;
+    /* font-weight: bold; */
+    /* justify-content: flex-start; */
+
+}
+
+.nav-links {
+    list-style-type: none;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+}
+
+.active {
+    font-weight: bold;
+}
+
+.btn {
+    /* box-shadow: 10px 5px 5px red; */
+    box-shadow: 3px 3px 0px 1px rgb(19, 28, 36);
+    color: white;
+    font-size: medium;
+    background-color: rgb(57, 147, 180);
+    border: 3px solid black;
+    font-family: 'Dosis', sans-serif;
+}
+
+a.active {
+    font-weight: bold;
+    color: white;
+}
+
+a {
+    color: rgb(227, 227, 227);
+    text-decoration: none;
+}
